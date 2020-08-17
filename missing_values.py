@@ -1,8 +1,19 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Load the data
-data = pd.read_csv('../input/melbourne-housing-snapshot/melb_data.csv')
+import os
+os.chdir("D:/git/ml_kaggle/")
+data = pd.read_csv('input/melbourne-housing-snapshot/melb_data.csv')
+print(data.head())
+
+#import pdb; pdb.set_trace()
 
 # Select target
 y = data.Price
