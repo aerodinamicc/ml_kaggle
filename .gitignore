@@ -3,6 +3,7 @@ __pycache__/
 input/
 *.py[cod]
 *$py.class
+connection.txt
 
 # C extensions
 *.so
